@@ -2,21 +2,21 @@
     "id": "alhikmah",
     "title": "Radio Al-Hikmah Banyuwangi",
     "tagline": "Menebar Sunnah, Menggalang Ukhuwah",
-    "stream": "http://158.69.119.235:8164/;stream",
+    "stream": "http://158.69.119.235:8164/;stream.nsv&type=mp3",
     "homepage": "http://alhikmahfm.com/",
     "cover": "http://alhikmahfm.com/templates/jf_texturia/images/logo.png"
 }, {
     "id": "radiorodja",
     "title": "Radio Rodja",
     "tagline": "Menebar Cahaya Sunnah",
-    "stream": "http://live2.radiorodja.com/;stream",
+    "stream": "http://live2.radiorodja.com/;stream.nsv&type=mp3",
     "homepage": "http://radiorodja.com/",
-    "cover": "http://rodja.tv/web/wp-content/uploads/logo-rodjatv.png"
+    "cover": "http://www.salamdakwah.com/uploads/dirimg_artikel/mib_201404291043514317_rodja756am1.png"
 }, {
     "id": "radiomuslim",
     "title": "Radio Muslim",
     "tagline": "Memurnikan Akidah, Menebarkan Sunnah",
-    "stream": "http://live.radiomuslim.com/;stream",
+    "stream": "http://live.radiomuslim.com/;stream.nsv&type=mp3",
     "homepage": "http://radiomuslim.com/",
-    "cover": "https://almishbah1431.files.wordpress.com/2013/01/radio-muslim.jpg"
+    "cover": "https://radiomuslim.com/wp-content/themes/radiomuslim/images/radiomuslim-logo.png"
 }]
