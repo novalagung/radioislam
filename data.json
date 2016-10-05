@@ -39,10 +39,7 @@
     "tagline": "Menebar Cahaya di Tengah Gulita",
     "stream": "http://streaming.an-nashihah.com:8022s/;stream.nsv&type=mp3",
     "homepage": "http://an-nashihah.com/",
-    "cover": "http://an-nashihah.com/wp-content/themes/max-magazine/images/logo.png"
-
-
-
+    "color": "#187ebd"
 }, {
     "id": "radiorodja",
     "title": "Radio Rodja",
