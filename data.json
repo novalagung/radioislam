@@ -4,14 +4,16 @@
     "tagline": "Menebar Sunnah, Menggalang Ukhuwah",
     "stream": "http://158.69.119.235:8164/;stream.nsv&type=mp3",
     "homepage": "http://alhikmahfm.com/",
-    "cover": "http://alhikmahfm.com/templates/jf_texturia/images/logo.png"
+    "cover": "http://alhikmahfm.com/templates/jf_texturia/images/logo.png",
+    "color": "#fc930a"
 }, {
 	"id": "almadinah",
 	"title": "Radio Al Madinah Solo",
     "tagline": "Menebar Dakwah Salaf",
     "stream": "http://103.28.119.27:8888/;stream.nsv&type=mp3",
     "homepage": "http://almadinah.or.id",
-    "cover": "http://4.bp.blogspot.com/-CEFH-yCDPWQ/UawPbkaInYI/AAAAAAAAA7w/5XEogYQyimc/s1600/almadinah-fm.jpg"
+    "cover": "http://4.bp.blogspot.com/-CEFH-yCDPWQ/UawPbkaInYI/AAAAAAAAA7w/5XEogYQyimc/s1600/almadinah-fm.jpg",
+    "color": "52c0d4"
 }, {
 	"id": "almansuroh",
 	"title": "Radio Al Manshuroh Cilacap",
@@ -33,11 +35,7 @@
     "stream": "http://streaming.an-nashihah.com:8022s/;stream.nsv&type=mp3",
     "homepage": "http://an-nashihah.com/",
     "cover": "http://an-nashihah.com/wp-content/themes/max-magazine/images/logo.png"
-},
-
-
-
-{
+}, {
     "id": "radiorodja",
     "title": "Radio Rodja",
     "tagline": "Menebar Cahaya Sunnah",
