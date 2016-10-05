@@ -13,11 +13,18 @@
     "homepage": "http://almadinah.or.id",
     "color": "#52c0d4"
 }, {
-	"id": "almanshurohcilacap",
-	"title": "Radio Al Manshuroh Cilacap",
+    "id": "almanshurohcilacap",
+    "title": "Radio Al Manshuroh Cilacap",
     "tagline": "Ahlan wa Sahlan di Radio Streaming Al-Manshuroh Cilacap",
     "stream": "http://radio.almanshurohcilacap.com:8002/;stream.nsv&type=mp3",
     "homepage": "http://www.almanshurohcilacap.com/",
+    "color": "#002e5f"
+}, {
+    "id": "almanshurohpurbalingga",
+    "title": "Radio Al Manshuroh Purbalingga",
+    "tagline": "Menebar sunnah diatas manhaj Salaful Ummah",
+    "stream": "http://radio2.dazzle.co.id:10140/;stream.nsv&type=mp3",
+    "homepage": "http://almanshuroh.net/",
     "color": "#002e5f"
 }, {
 
