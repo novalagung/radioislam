@@ -15,13 +15,17 @@
     "cover": "http://4.bp.blogspot.com/-CEFH-yCDPWQ/UawPbkaInYI/AAAAAAAAA7w/5XEogYQyimc/s1600/almadinah-fm.jpg",
     "color": "52c0d4"
 }, {
-	"id": "almansuroh",
+	"id": "almansurohcilacap",
 	"title": "Radio Al Manshuroh Cilacap",
     "tagline": "Ahlan wa Sahlan di Radio Streaming Al-Manshuroh Cilacap",
     "stream": "http://radio.almanshurohcilacap.com:8002/;stream.nsv&type=mp3",
     "homepage": "http://www.almanshurohcilacap.com/",
-    "cover": "http://almanshurohcilacap.com/wp-content/uploads/copy-logo-web.png"
+    "cover": "http://almanshurohcilacap.com/wp-content/uploads/copy-logo-web.png",
+    "color": "002e5f"
 }, {
+
+
+    
 	"id": "annash",
 	"title": "Radio An Nash",
     "tagline": "Memelihara Warisan As Sunnah",
@@ -35,6 +39,9 @@
     "stream": "http://streaming.an-nashihah.com:8022s/;stream.nsv&type=mp3",
     "homepage": "http://an-nashihah.com/",
     "cover": "http://an-nashihah.com/wp-content/themes/max-magazine/images/logo.png"
+
+
+
 }, {
     "id": "radiorodja",
     "title": "Radio Rodja",
