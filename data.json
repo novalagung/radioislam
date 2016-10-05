@@ -27,15 +27,12 @@
     "homepage": "http://almanshuroh.net/",
     "color": "#002e5f"
 }, {
-
-
-
 	"id": "annash",
 	"title": "Radio An Nash",
     "tagline": "Memelihara Warisan As Sunnah",
     "stream": "http://live.annashradio.com/;stream.nsv&type=mp3",
     "homepage": "http://annashradio.com/",
-    "cover": "http://annashradio.com/templates/annash/images/logo.png"
+    "color": "#95ca06"
 }, {
 	"id": "annashihah",
 	"title": "Radio An Nashihah",
