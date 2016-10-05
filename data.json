@@ -41,6 +41,17 @@
     "homepage": "http://an-nashihah.com/",
     "color": "#187ebd"
 }, {
+    "id": "rdi",
+    "title": "Radio Dakwah Islamiyah",
+    "tagline": "Media Inspirasi, Menyejukkan dan Mencerdaskan",
+    "stream": "http://live.radiodakwah.com/;stream.nsv&type=mp3",
+    "homepage": "http://annurjagalan.com/",
+    "color": "#eb9241"
+}
+
+
+
+, {
     "id": "radiorodja",
     "title": "Radio Rodja",
     "tagline": "Menebar Cahaya Sunnah",
