@@ -43,12 +43,14 @@
     "tagline": "Menebar Cahaya Sunnah",
     "stream": "http://live2.radiorodja.com/;stream.nsv&type=mp3",
     "homepage": "http://radiorodja.com/",
-    "cover": "http://www.salamdakwah.com/uploads/dirimg_artikel/mib_201404291043514317_rodja756am1.png"
+    "cover": "https://github.com/novalagung/radioislam/raw/master/images/radiorodja.png",
+    "color": "#cd2312"
 }, {
     "id": "radiomuslim",
     "title": "Radio Muslim",
     "tagline": "Memurnikan Akidah, Menebarkan Sunnah",
     "stream": "http://live.radiomuslim.com/;stream.nsv&type=mp3",
     "homepage": "http://radiomuslim.com/",
-    "cover": "https://radiomuslim.com/wp-content/themes/radiomuslim/images/radiomuslim-logo.png"
+    "cover": "https://radiomuslim.com/wp-content/themes/radiomuslim/images/radiomuslim-logo.png",
+    "color": "#139147"
 }]
