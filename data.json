@@ -55,6 +55,13 @@
     "homepage": "http://bassfmsalatiga.com/",
     "color": "#139147"
 }, {
+    "id": "bismillah",
+    "title": "Radio Bismillah Surabaya",
+    "tagline": "Radio Dakwah dan Informasi Dakwah Islam Surabaya dan Sekitarnya",
+    "stream": "http://live.bismillah.us:8333/;stream.nsv&type=mp3",
+    "homepage": "http://bismillah.us/",
+    "color": "#96b82b"
+}, {
     "id": "rdi",
     "title": "Radio Dakwah Islamiyah",
     "tagline": "Media Inspirasi, Menyejukkan dan Mencerdaskan",
