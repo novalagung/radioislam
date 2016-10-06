@@ -168,14 +168,14 @@
     "color": "#eb8305"
 }, {
     "id" : "shahabat",
-    "name" : "Radio Shahabat Muslim Tegal", 
+    "title" : "Radio Shahabat Muslim Tegal", 
     "tagline": "Jalinan Ukuwah di atas Sunnah",
     "stream": "http://119.82.232.92/;stream.nsv&type=mp3",
     "homepage" : "http://radioshahabat.net/", 
     "color": "#58bb10"
 }, {
     "id" : "aliman", 
-    "name" : "Radio Suara Al Iman Surabaya", 
+    "title" : "Radio Suara Al Iman Surabaya", 
     "tagline" : "Radio dakwah Islam, Ahli Sunnah Wal Jama'ah",
     "stream" : "http://live.suaraaliman.com/;stream.nsv&type=mp3",
     "homepage" : "http://www.suaraaliman.com/", 
