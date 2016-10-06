@@ -68,10 +68,14 @@
     "stream": "http://live.radiodakwah.com/;stream.nsv&type=mp3",
     "homepage": "http://annurjagalan.com/",
     "color": "#eb9241"
-}
-
-
-, {
+}, {
+    "id": "dakwahsunnah",
+    "title": "Radio Dakwah Sunnah",
+    "tagline": "Menyebarkan ajaran Islam yang berdasarkan Al Quran dan Sunnah dengan pemahaman para salaf",
+    "stream": "http://live.dakwahsunnah.com/;stream.nsv&type=mp3",
+    "homepage": "http://dakwahsunnah.com/",
+    "color": "#16588a"
+}, {
     "id": "radiorodja",
     "title": "Radio Rodja",
     "tagline": "Menebar Cahaya Sunnah",
