@@ -41,6 +41,20 @@
     "homepage": "http://an-nashihah.com/",
     "color": "#187ebd"
 }, {
+    "id": "arroyyan",
+    "title": "Radio Ar Royyan",
+    "tagline": "Wahana Pengokoh Iman",
+    "stream": "http://live.radioarroyyan.net/;stream.nsv&type=mp3",
+    "homepage": "http://radioarroyyan.net/",
+    "color": "#ee813c"
+}, {
+    "id": "bassfm",
+    "title": "Radio Bass FM Salatiga",
+    "tagline": "Mengenal Indahnya Islam",
+    "stream": "http://live.bassfmsalatiga.com/;stream.nsv&type=mp3",
+    "homepage": "http://bassfmsalatiga.com/",
+    "color": "#00923f"
+}, {
     "id": "rdi",
     "title": "Radio Dakwah Islamiyah",
     "tagline": "Media Inspirasi, Menyejukkan dan Mencerdaskan",
@@ -48,7 +62,6 @@
     "homepage": "http://annurjagalan.com/",
     "color": "#eb9241"
 }
-
 
 
 , {
