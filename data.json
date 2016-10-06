@@ -76,6 +76,13 @@
     "homepage": "http://dakwahsunnah.com/",
     "color": "#16588a"
 }, {
+    "id": "hang",
+    "title": "Radio Hang FM Salatiga",
+    "tagline": "Radio Dakwah Islam",
+    "stream": "http://radio.hangfm.id/;stream.nsv&type=mp3",
+    "homepage": "http://www.hangfm.id/",
+    "color": "#86c441"
+}, {
     "id": "radiorodja",
     "title": "Radio Rodja",
     "tagline": "Menebar Cahaya Sunnah",
