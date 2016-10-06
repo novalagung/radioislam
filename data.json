@@ -111,12 +111,26 @@
     "homepage": "http://radiokita.or.id",
     "color": "#8bc13d"
 }, {
-    "id": "radiorodja",
-    "title": "Radio Rodja",
-    "tagline": "Menebar Cahaya Sunnah",
-    "stream": "http://live2.radiorodja.com/;stream.nsv&type=mp3",
-    "homepage": "http://radiorodja.com/",
-    "color": "#cd2312"
+    "id": "majas",
+    "title": "Radio Majas",
+    "tagline": "Media Ilmu Tadabbur Kalam Ilahi",
+    "stream": "http://117.20.40.212:9998/;stream.nsv&type=mp3",
+    "homepage": "http://radiomajas.com/",
+    "color": "#db2219"
+}, {
+    "id": "icbb",
+    "title": "Radio Medinah ICBB",
+    "tagline": "Media Dakwah Islam dan Tilawah Al Qur'an",
+    "stream": "http://live.radiomedinah.com/;stream.nsv&type=mp3",
+    "homepage": "http://radiomedinah.com",
+    "color": "#02a75a"
+}, {
+    "id": "muadz",
+    "title": "Radio Muadz",
+    "tagline": "Bersama meniti jalan Istiqomah sesuai Al Quran dan As Sunnah",
+    "stream": "http://live.radiomuadz.com/;stream.nsv&type=mp3",
+    "homepage": "http://radiomuadz.com/",
+    "color": "#02a75a"
 }, {
     "id": "radiomuslim",
     "title": "Radio Muslim",
@@ -124,4 +138,46 @@
     "stream": "http://live.radiomuslim.com/;stream.nsv&type=mp3",
     "homepage": "http://radiomuslim.com/",
     "color": "#139147"
+}, {
+    "id": "rayfm",
+    "title": "Radio Ray FM",
+    "tagline": "Memurnikan Aqidah, Menebarkan Sunnah",
+    "stream": "http://live2.indostreamserver.com:8074/;stream.nsv&type=mp3",
+    "homepage": "http://www.radiorayfm.com/",
+    "color": "#02a75a"
+}, {
+    "id": "radiorodja",
+    "title": "Radio Rodja",
+    "tagline": "Menebar Cahaya Sunnah",
+    "stream": "http://live2.radiorodja.com/;stream.nsv&type=mp3",
+    "homepage": "http://radiorodja.com/",
+    "color": "#cd2312"
+}, {
+    "id": "rodjabandung",
+    "title": "Radio Rodja Bandung",
+    "tagline": "Menebar Cahaya Sunnah",
+    "stream": "http://95.154.254.151:15289/;stream.nsv&type=mp3",
+    "homepage": "http://radiorodjabandung.com/",
+    "color": "#cd2312"
+}, {
+    "id": "radiosatu",
+    "title": "Radio Satu Lombok",
+    "tagline": "Ber-SATU diatas Al-Qur’an & Sunnah",
+    "stream": "http://assunnahfm.com:9010/;stream.nsv&type=mp3",
+    "homepage": "http://assunnahfm.com/",
+    "color": "#eb8305"
+}, {
+    "id" : "shahabat",
+    "name" : "Radio Shahabat Muslim Tegal", 
+    "tagline": "Jalinan Ukuwah di atas Sunnah",
+    "stream": "http://119.82.232.92/;stream.nsv&type=mp3",
+    "homepage" : "http://radioshahabat.net/", 
+    "color": "#58bb10"
+}, {
+    "id" : "aliman", 
+    "name" : "Radio Suara Al Iman Surabaya", 
+    "tagline" : "Radio dakwah Islam, Ahli Sunnah Wal Jama'ah",
+    "stream" : "http://live.suaraaliman.com/;stream.nsv&type=mp3",
+    "homepage" : "http://www.suaraaliman.com/", 
+    "color": "#58bb10"
 }]
