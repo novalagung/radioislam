@@ -167,17 +167,31 @@
     "homepage": "http://assunnahfm.com/",
     "color": "#eb8305"
 }, {
-    "id" : "shahabat",
-    "title" : "Radio Shahabat Muslim Tegal", 
+    "id": "shahabat",
+    "title": "Radio Shahabat Muslim Tegal", 
     "tagline": "Jalinan Ukuwah di atas Sunnah",
     "stream": "http://119.82.232.92/;stream.nsv&type=mp3",
-    "homepage" : "http://radioshahabat.net/", 
+    "homepage": "http://radioshahabat.net/", 
     "color": "#58bb10"
 }, {
-    "id" : "aliman", 
-    "title" : "Radio Suara Al Iman Surabaya", 
-    "tagline" : "Radio dakwah Islam, Ahli Sunnah Wal Jama'ah",
-    "stream" : "http://live.suaraaliman.com/;stream.nsv&type=mp3",
-    "homepage" : "http://www.suaraaliman.com/", 
+    "id": "aliman", 
+    "title": "Radio Suara Al Iman Surabaya", 
+    "tagline": "Radio dakwah Islam, Ahli Sunnah Wal Jama'ah",
+    "stream": "http://live.suaraaliman.com/;stream.nsv&type=mp3",
+    "homepage": "http://www.suaraaliman.com/", 
     "color": "#58bb10"
+}, {
+    "id": "suaraquran", 
+    "title": "Radio Suara Qur'an Solo", 
+    "tagline" : "Media Kalam Ilahi",
+    "stream": "http://117.20.40.212:8010/;stream.nsv&type=mp3",
+    "homepage": "http://suaraquran.com/", 
+    "color": "#58bb10"
+}, {
+    "id": "syiartauhid",
+    "title": "Radio Syiar Tauhid",
+    "tagline": "Lebih Nyaman Dengan Lantunan Al-Qur'am, Lebih Indah Dengan Sunnah Nabawiyah",
+    "stream": "http://syiartauhid.info:8008/;stream.nsv&type=mp3",
+    "homepage": "http://syiartauhid.info/",
+    "color": "#cb5801"
 }]
