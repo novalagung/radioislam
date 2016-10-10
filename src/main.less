@@ -1,184 +1,152 @@
-body {
-    box-sizing: border-box;
+#player {
+	width: 1px;
+	height: 1px;
+	position: absolute;
+	visibility: hidden;
 }
 
-*, *:before, *:after {
-    box-sizing: inherit;
-}
+#banner {
+	.mini-player, .desc {
+		margin-bottom: 10px;
+	}
 
-.clear {
-	clear: both;
-}
-.align-center {
-	text-align: center;
-}
+	.mini-player {
+		transition: filter 0.25s ease;
 
-#main > #intro {
-	.spotlight {
-		.image {
-			border-radius: 0px;
-		    border: none;
-		    margin-left: 2em;
+		.label {
+			opacity: 0.6;
+			margin-right: 5px;
+			text-transform: capitalize;
+		}
 
-		    @media screen and (max-width: 980px) {
-		    	margin-left: 0px;
-		    }
+		select {
+			display: inline-block;
+	    	width: inherit;
+		}
 
-		    img {
-				width: 370px;
-				border-radius: 0px;
-				border: none;
-		    }
+		&.loading {
+			opacity: 0.6;
+			pointer-events: none;
+			filter: blur(5px);
 		}
 	}
-}
 
-#main > #preview {
-	padding: 0px;
-	padding-top: 5em;
-
-	@media screen and (max-width: 980px) {
-	    padding-top: 4em;
+	.error-message {
+		opacity: 0.6;
+		text-transform: capitalize;
 	}
+
+    .hack {
+    	position: relative;
+
+	    .inner {
+		    position: absolute;
+	    	left: 360px;
+	    }
+    }
+
+    img {
+    	width: 300px;
+    }
 
 	@media screen and (max-width: 1280px) {
-	    padding-top: 4em;
+		padding: 4em 12em 0;
 	}
 
-	ul {
-		list-style: none;
-		padding-left: 0px;
+	@media screen and (max-width: 1130px) {
+		padding: 4em 6em 0;
 
-		li {
-			padding-left: 0px;
-
-			&:last-child {
-				margin-right: 0px;
-			}
-
-			img {
-				
-			}
+		h2 {
+			font-size: 32px;
 		}
 	}
 
-	.sy-box {
-		position: relative;
+	@media screen and (max-width: 980px) {
+		padding: 4em 3em 0;
 
-		.sy-caption-wrap {
-			display: none;
+		h2 {
+			font-size: 28px;
 		}
+	}
 
-		.sy-pager {
-			position: absolute;
-		    bottom: -15px;
-		    z-index: 1000;
-		    padding: 15px;
+	@media screen and (max-width: 840px) {
+		text-align: center;
 
-		    li {
-		    	width: 8px;
-			    height: 8px;
-			    margin: 0 10px 0 0;
-			    transition: transform 100ms ease-in-out;
-
-			    &:hover {
-			    	transform: scale(1.8);
-			    }
-
-			    &.sy-active {
-			    	a {
-			    		background-color: #08744e;
-			    	}
-			    }
-
-		    	a {
-		    		background-color: rgba(255, 255, 255, 0.4);
-    				border: none;
-		    	}
-		    }
+		.inner {
+			position: relative;
+			left: 0px;
 		}
 	}
 }
 
-#main > #location-time {
-	.spotlight {
-		.image {
-			border-radius: 0;
-		    border: none;
-		    margin: 0;
+#wrapper {
+	.inner {
+    	padding: 1em 0 1em 0;
+    }
 
-		    img {
-		    	border-radius: 0;
-				width: 400px;
-		    }
+	#one {
+		@media screen and (max-width: 840px) {
+			margin-top: -10px;
 		}
 
-		@media screen and (max-width: 980px) {
-			flex-direction: column;
+		p {
+			margin-bottom: 1em;
+		}
 
-			.content {
-				margin-bottom: 2em;
-			}
+	    .super {
+		    border: 2px solid #6270a3;
+		    display: inline-block;
+		    padding: 2px 16px;
+		    background-color: white;
+		    color: #4c5c96;
+		    font-size: 28px;
+		    height: 55px;
+		    border-radius: 18px;
+		    transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+		    cursor: pointer;
 
-			.image {
-				img {
-					width: 100%;
+		    &:hover {
+		    	background-color: rgba(255, 255, 255, 0.025);
+		    }
+
+		    .fa {
+		    	margin-right: 5px;
+		    }
+	    }
+	}
+
+	#two {
+		ul {
+			li {
+				display:inline-block;
+				width: 300px;
+
+				&:before {
+					content: '•';
+					margin-right: 7px;
 				}
 			}
+
+			margin-bottom: 1em;
 		}
-	}
-}
 
-#main > #content {
-	.wise-word {
-	    font-style: italic;
-	    font-size: 23px;
-	    line-height: 1.5em;
-	    padding: 30px 40px;
-	    background-color: #f7f7f7;
-	}
-}
-
-#main > #contribution {
-	.actions {
-		li:first-child {
-			a {
-				margin-right: 10px;
-			}
+		p {
+		    margin-left: 2em;
+		    font-style: italic;
 		}
 	}
 }
 
 #footer {
-	.left {
-		width: calc(65% - 2em);
-	}
-	.right {
-		width: calc(30% - 2em);
-	}
+	.inner {
+    	padding: 3em 0 3em 0;
+    }
 
-	dl.alt {
-		dd {
-			margin-bottom: 0.3em;
-		}
-	}
+    ul {
+    	margin-bottom: 0px;
 
-	@media screen and (max-width: 980px) {
-		> * {
-			margin: auto 0px;
-			text-align: center;
-			width: 100% !important;
-
-			dt {
-				text-align: left;
-			}
-			dd {
-				text-align: right;
-			}
-		}
-
-		.copyright {
-			text-align: center;
-		}
-	}
+    	li:not(:first-child) {
+		    margin-top: 15px;
+    	}
+    }
 }

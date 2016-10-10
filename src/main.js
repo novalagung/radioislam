@@ -1,47 +1,78 @@
 let vm = {}
 
-vm.second = 1000
-vm.urlContent = 'data/data-content.json'
+vm.SECOND = 1000
+vm.urlContent = 'data.json'
+vm.data = []
 
 vm.getContent = (callback = $.noop) => {
     $.getJSON(vm.urlContent, (res) => {
-        let text = res.content
-            .filter((d) => d.type === 'word of wisdom')
-            .map((d) => {
-                let suffix = ''
-                if (res.author.hasOwnProperty(d.author)) {
-                    suffix = `<br /><br />~ <a href="${d.reference}" target="_blank">${res.author[d.author].name}</a>`
-                }
+        callback(res.data)
+    })
+}
 
-                return `${d.translation}${suffix}`
-            })
+vm.stream = (id) => {
+    let row = vm.data.find((d) => d.id == id)
+    $('#selected-radio').val(id)
 
-        callback(text)
+    let $miniPlayer = $('.mini-player')
+    $miniPlayer.addClass('loading')
+
+    let fallback = (message) => {
+        let $errorMessage = $('.error-message')
+
+        $miniPlayer.removeClass('loading')
+        $errorMessage.html(message)
+        setTimeout(() => {
+            $errorMessage.empty()
+        }, 4 * vm.SECOND)
+    }
+
+    let timeout = setTimeout(() => {
+        fallback('Timeout')
+    }, 4 * vm.SECOND)
+
+    let $player = $('#player')
+    $player.jPlayer('destroy')
+    $player.jPlayer({
+        ready: function (event) {
+            let config = { mp3: row.stream }
+            $(this).jPlayer('setMedia', config).jPlayer('play')
+        },
+        swfPath: 'js',
+        supplied: 'mp3'
+    })
+    $player.bind($.jPlayer.event.playing, () => { 
+        clearTimeout(timeout)
+        
+        setTimeout(() => {
+            $miniPlayer.removeClass('loading')
+        }, 1 * vm.SECOND)
+    })
+    $player.bind($.jPlayer.event.error, () => {
+        fallback('Terjadi error, silakan coba channel radio lainnya')
     })
 }
 
 vm.init = () => {
-    // init events
-    $('.go-to-contribution').on('click', () => {
-        $('[href="#contribution"]').trigger('click')
-    })
-
-    // init image slider
-    $('.slider').slippry()
+    let $radioListContainer = $('#all-radio').empty()
+    let $dropdownRadio = $('#selected-radio').val('').empty()
 
     // get content
     vm.getContent((data) => {
+        vm.data = data
 
-        // init the text transition
-        $('.wise-word').html(data.join('|')).Morphext({
-            speed: 10 * vm.second,
-            separator: '|',
-            animation: 'bounceIn',
+        // plot radio
+        data.forEach((d, i) => {
+            $('<li />').html(d.title).appendTo($radioListContainer)
+            $('<option />').val(d.id).html(d.title).appendTo($dropdownRadio)
         })
+
+        // start stream
+        vm.stream('radiorodja')
     })
 
-    // init lazy loader
-    $('img').unveil()
+    // on radio change
+    $dropdownRadio.on('change', (e) => vm.stream($(e.target).val()))
 }
 
 $(() => {
