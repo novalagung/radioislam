@@ -1,5 +1,5 @@
 {
-    "version": 2,
+    "version": 3,
     "data": [{
         "id": "alhikmah",
         "title": "Radio Al Hikmah Banyuwangi",
@@ -11,14 +11,14 @@
         "id": "almadinah",
         "title": "Radio Al Madinah Solo",
         "tagline": "Menebar Dakwah Salaf",
-        "stream": "http://103.28.119.27:8888/;stream.nsv&type=mp3",
+        "stream": "http://stream.rdio.or.id:7033/;stream.nsv&type=mp3",
         "homepage": "http://almadinah.or.id",
         "color": "#52c0d4"
     }, {
         "id": "almanshurohcilacap",
         "title": "Radio Al Manshuroh Cilacap",
         "tagline": "Ahlan wa Sahlan di Radio Streaming Al-Manshuroh Cilacap",
-        "stream": "http://radio.almanshurohcilacap.com:8002/;stream.nsv&type=mp3",
+        "stream": "http://45.64.98.181:8221/;stream.nsv&type=mp3",
         "homepage": "http://www.almanshurohcilacap.com/",
         "color": "#002e5f"
     }, {
@@ -39,7 +39,7 @@
         "id": "annashihah",
         "title": "Radio An Nashihah",
         "tagline": "Menebar Cahaya di Tengah Gulita",
-        "stream": "http://streaming.an-nashihah.com:8022s/;stream.nsv&type=mp3",
+        "stream": "http://streaming.an-nashihah.com:8022/;stream.nsv&type=mp3",
         "homepage": "http://an-nashihah.com/",
         "color": "#187ebd"
     }, {
