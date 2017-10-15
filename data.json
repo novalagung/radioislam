@@ -1,5 +1,5 @@
 {
-    "version": 4,
+    "version": 5,
     "data": [{
         "id": "alhikmah",
         "title": "Radio Al Hikmah Banyuwangi",
@@ -81,7 +81,7 @@
         "id": "hang",
         "title": "Radio Hang FM Salatiga",
         "tagline": "Radio Dakwah Islam",
-        "stream": "http://176.126.245.3:8000/;stream.nsv&type=mp3",
+        "stream": "http://176.126.245.3:8000/stream",
         "homepage": "http://www.hangfm.id/",
         "color": "#86c441"
     }, {
