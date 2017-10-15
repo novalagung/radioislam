@@ -1,5 +1,5 @@
 {
-    "version": 3,
+    "version": 4,
     "data": [{
         "id": "alhikmah",
         "title": "Radio Al Hikmah Banyuwangi",
@@ -81,7 +81,7 @@
         "id": "hang",
         "title": "Radio Hang FM Salatiga",
         "tagline": "Radio Dakwah Islam",
-        "stream": "http://radio.hangfm.id/;stream.nsv&type=mp3",
+        "stream": "http://176.126.245.3:8000/;stream.nsv&type=mp3",
         "homepage": "http://www.hangfm.id/",
         "color": "#86c441"
     }, {
@@ -109,14 +109,14 @@
         "id": "radiokitamadiun",
         "title": "Radio Kita Madiun",
         "tagline": "Kajian Islam & Tilawah Al-Qur'an",
-        "stream": "http://live.radiokita.or.id/;stream.nsv&type=mp3",
+        "stream": "http://119.82.232.87/;stream.nsv&type=mp3",
         "homepage": "http://radiokita.or.id",
         "color": "#8bc13d"
     }, {
         "id": "majas",
         "title": "Radio Majas",
         "tagline": "Media Ilmu Tadabbur Kalam Ilahi",
-        "stream": "http://117.20.40.212:9998/;stream.nsv&type=mp3",
+        "stream": "http://live.syaria.net:9998/;stream.nsv&type=mp3",
         "homepage": "http://radiomajas.com/",
         "color": "#db2219"
     }, {
