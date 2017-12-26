@@ -1,5 +1,5 @@
 {
-    "version": 6,
+    "version": 7,
     "data": [{
         "id": "alhikmah",
         "title": "Radio Al Hikmah Banyuwangi",
@@ -11,9 +11,23 @@
         "id": "almadinah",
         "title": "Radio Al Madinah Solo",
         "tagline": "Menebar Dakwah Salaf",
-        "stream": "http://stream.rdio.or.id:7033/;stream.nsv&type=mp3",
+        "stream": "http://103.28.119.27:8888/;stream.nsv&type=mp3",
         "homepage": "http://almadinah.or.id",
         "color": "#52c0d4"
+    }, {
+        "id": "almanshurohcilacap",
+        "title": "Radio Al Manshuroh Cilacap",
+        "tagline": "Ahlan wa Sahlan di Radio Streaming Al-Manshuroh Cilacap",
+        "stream": "http://radio.almanshurohcilacap.com:8002/;stream.nsv&type=mp3",
+        "homepage": "http://www.almanshurohcilacap.com/",
+        "color": "#002e5f"
+    }, {
+        "id": "almanshurohpurbalingga",
+        "title": "Radio Al Manshuroh Purbalingga",
+        "tagline": "Menebar sunnah diatas manhaj Salaful Ummah",
+        "stream": "http://radio2.dazzle.co.id:10140/;stream.nsv&type=mp3",
+        "homepage": "http://almanshuroh.net/",
+        "color": "#002e5f"
     }, {
         "id": "annash",
         "title": "Radio An Nash",
@@ -67,7 +81,7 @@
         "id": "hang",
         "title": "Radio Hang FM Salatiga",
         "tagline": "Radio Dakwah Islam",
-        "stream": "http://176.126.245.3:8000/stream",
+        "stream": "http://radio.hangfm.id/;stream.nsv&type=mp3",
         "homepage": "http://www.hangfm.id/",
         "color": "#86c441"
     }, {
@@ -95,14 +109,14 @@
         "id": "radiokitamadiun",
         "title": "Radio Kita Madiun",
         "tagline": "Kajian Islam & Tilawah Al-Qur'an",
-        "stream": "http://119.82.232.87/;stream.nsv&type=mp3",
+        "stream": "http://live.radiokita.or.id/;stream.nsv&type=mp3",
         "homepage": "http://radiokita.or.id",
         "color": "#8bc13d"
     }, {
         "id": "majas",
         "title": "Radio Majas",
         "tagline": "Media Ilmu Tadabbur Kalam Ilahi",
-        "stream": "http://live.syaria.net:9998/;stream.nsv&type=mp3",
+        "stream": "http://117.20.40.212:9998/;stream.nsv&type=mp3",
         "homepage": "http://radiomajas.com/",
         "color": "#db2219"
     }, {
@@ -144,7 +158,7 @@
         "id": "radiorodjabandung",
         "title": "Radio Rodja Bandung",
         "tagline": "Menebar Cahaya Sunnah",
-        "stream": "http://live.radiorodjabandung.com/;stream.nsv&type=mp3",
+        "stream": "http://95.154.254.151:15289/;stream.nsv&type=mp3",
         "homepage": "http://radiorodjabandung.com/",
         "color": "#cd2312"
     }, {
