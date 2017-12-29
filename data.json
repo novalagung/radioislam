@@ -1,5 +1,5 @@
 {
-    "version": 7,
+    "version": 8,
     "data": [{
         "id": "alhikmah",
         "title": "Radio Al Hikmah Banyuwangi",
@@ -91,6 +91,13 @@
         "stream": "http://radio.hidayahfm.com:9988/;stream.nsv&type=mp3",
         "homepage": "http://www.hidayahfm.com/",
         "color": "#5c8b00"
+    }, {
+        "id": "insani",
+        "title": "Radio Insani Purbalingga",
+        "tagline": "Inspiratif, Santun dan Islami",
+        "stream": "http://live.insanifm.com:8989/;stream.nsv&type=mp3",
+        "homepage": "http://insanifm.com/",
+        "color": "#229c2e"
     }, {
         "id": "kajianonlinemedan",
         "title": "Radio Kajian Online Medan",
