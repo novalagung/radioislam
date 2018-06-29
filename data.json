@@ -1,5 +1,5 @@
 {
-    "version": 9,
+    "version": 10,
     "data": [{
         "id": "alhikmah",
         "title": "Radio Al Hikmah Banyuwangi",
@@ -11,14 +11,14 @@
         "id": "almadinah",
         "title": "Radio Al Madinah Solo",
         "tagline": "Menebar Dakwah Salaf",
-        "stream": "http://103.28.119.27:8888/;stream.nsv&type=mp3",
+        "stream": "http://stream.rdio.or.id:7033/;stream.nsv&type=mp3",
         "homepage": "http://almadinah.or.id",
         "color": "#52c0d4"
     }, {
         "id": "almanshurohcilacap",
         "title": "Radio Al Manshuroh Cilacap",
         "tagline": "Ahlan wa Sahlan di Radio Streaming Al-Manshuroh Cilacap",
-        "stream": "http://radio.almanshurohcilacap.com:8002/;stream.nsv&type=mp3",
+        "stream": "http://209.58.160.62:11162/;stream.nsv&type=mp3",
         "homepage": "http://www.almanshurohcilacap.com/",
         "color": "#002e5f"
     }, {
@@ -39,7 +39,7 @@
         "id": "annashihah",
         "title": "Radio An Nashihah",
         "tagline": "Menebar Cahaya di Tengah Gulita",
-        "stream": "http://streaming.an-nashihah.com:8022/;stream.nsv&type=mp3",
+        "stream": "http://streaming2.an-nashihah.com:9988/;stream.nsv&type=mp3",
         "homepage": "http://an-nashihah.com/",
         "color": "#187ebd"
     }, {
@@ -53,7 +53,7 @@
         "id": "bassfm",
         "title": "Radio Bass FM Salatiga",
         "tagline": "Mengenal Indahnya Islam",
-        "stream": "http://live.bassfmsalatiga.com/;stream.nsv&type=mp3",
+        "stream": "http://live.bassfm.id/;stream.nsv&type=mp3",
         "homepage": "http://bassfmsalatiga.com/",
         "color": "#139147"
     }, {
@@ -79,9 +79,9 @@
         "color": "#16588a"
     }, {
         "id": "hang",
-        "title": "Radio Hang FM Salatiga",
+        "title": "Radio Hang FM Batam",
         "tagline": "Radio Dakwah Islam",
-        "stream": "http://radio.hangfm.id/;stream.nsv&type=mp3",
+        "stream": "http://185.47.62.52:8000/;stream.nsv&type=mp3",
         "homepage": "http://www.hangfm.id/",
         "color": "#86c441"
     }, {
@@ -116,14 +116,14 @@
         "id": "radiokitamadiun",
         "title": "Radio Kita Madiun",
         "tagline": "Kajian Islam & Tilawah Al-Qur'an",
-        "stream": "http://live.radiokita.or.id/;stream.nsv&type=mp3",
+        "stream": "http://119.82.232.87/;stream.nsv&type=mp3",
         "homepage": "http://radiokita.or.id",
         "color": "#8bc13d"
     }, {
         "id": "majas",
         "title": "Radio Majas",
         "tagline": "Media Ilmu Tadabbur Kalam Ilahi",
-        "stream": "http://117.20.40.212:9998/;stream.nsv&type=mp3",
+        "stream": "http://live.syaria.net:9998/;stream.nsv&type=mp3",
         "homepage": "http://radiomajas.com/",
         "color": "#db2219"
     }, {
@@ -165,7 +165,7 @@
         "id": "radiorodjabandung",
         "title": "Radio Rodja Bandung",
         "tagline": "Menebar Cahaya Sunnah",
-        "stream": "http://95.154.254.151:15289/;stream.nsv&type=mp3",
+        "stream": "http://live.radiorodjabandung.com/;stream.nsv&type=mp3",
         "homepage": "http://radiorodjabandung.com/",
         "color": "#cd2312"
     }, {
@@ -179,7 +179,7 @@
         "id": "shahabat",
         "title": "Radio Shahabat Muslim Tegal", 
         "tagline": "Jalinan Ukuwah di atas Sunnah",
-        "stream": "http://119.82.232.92/;stream.nsv&type=mp3",
+        "stream": "http://119.82.232.83:8009/;stream.nsv&type=mp3",
         "homepage": "http://radioshahabat.net/", 
         "color": "#58bb10"
     }, {
