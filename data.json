@@ -1,5 +1,5 @@
 {
-    "version": 10,
+    "version": 11,
     "data": [{
         "id": "alhikmah",
         "title": "Radio Al Hikmah Banyuwangi",
@@ -29,13 +29,6 @@
         "homepage": "http://almanshuroh.net/",
         "color": "#002e5f"
     }, {
-        "id": "annash",
-        "title": "Radio An Nash",
-        "tagline": "Memelihara Warisan As Sunnah",
-        "stream": "http://live.annashradio.com/;stream.nsv&type=mp3",
-        "homepage": "http://annashradio.com/",
-        "color": "#95ca06"
-    }, {
         "id": "annashihah",
         "title": "Radio An Nashihah",
         "tagline": "Menebar Cahaya di Tengah Gulita",
@@ -56,20 +49,6 @@
         "stream": "http://live.bassfm.id/;stream.nsv&type=mp3",
         "homepage": "http://bassfmsalatiga.com/",
         "color": "#139147"
-    }, {
-        "id": "bismillah",
-        "title": "Radio Bismillah Surabaya",
-        "tagline": "Radio Dakwah dan Informasi Dakwah Islam Surabaya dan Sekitarnya",
-        "stream": "http://live.bismillah.us:8333/;stream.nsv&type=mp3",
-        "homepage": "http://bismillah.us/",
-        "color": "#96b82b"
-    }, {
-        "id": "rdi",
-        "title": "Radio Dakwah Islamiyah",
-        "tagline": "Media Inspirasi, Menyejukkan dan Mencerdaskan",
-        "stream": "http://live.radiodakwah.com/;stream.nsv&type=mp3",
-        "homepage": "http://annurjagalan.com/",
-        "color": "#eb9241"
     }, {
         "id": "dakwahsunnah",
         "title": "Radio Dakwah Sunnah",
@@ -95,7 +74,7 @@
         "id": "insani",
         "title": "Radio Insani Purbalingga",
         "tagline": "Inspiratif, Santun dan Islami",
-        "stream": "http://live.insanifm.com:8989/;stream.nsv&type=mp3",
+        "stream": "http://live.insanifm.com/;stream.nsv&type=mp3",
         "homepage": "http://insanifm.com/",
         "color": "#229c2e"
     }, {
@@ -116,7 +95,7 @@
         "id": "radiokitamadiun",
         "title": "Radio Kita Madiun",
         "tagline": "Kajian Islam & Tilawah Al-Qur'an",
-        "stream": "http://119.82.232.87/;stream.nsv&type=mp3",
+        "stream": "http://119.82.232.83:8017/;stream.nsv&type=mp3",
         "homepage": "http://radiokita.or.id",
         "color": "#8bc13d"
     }, {
@@ -147,6 +126,13 @@
         "stream": "http://live.radiomuslim.com/;stream.nsv&type=mp3",
         "homepage": "http://radiomuslim.com/",
         "color": "#139147"
+    }, {
+        "id": "mutiaraquran",
+        "title": "Radio Mutiara Qur'an",
+        "tagline": "Meniti Langkah Persaudaraan Islam",
+        "stream": "http://45.64.98.181:8104/;stream.nsv&type=mp3",
+        "homepage": "https://radiomutiaraquran.com/",
+        "color": "#fc930a"
     }, {
         "id": "rayfm",
         "title": "Radio Ray FM",
@@ -193,14 +179,14 @@
         "id": "suaraquran", 
         "title": "Radio Suara Qur'an Solo", 
         "tagline" : "Media Kalam Ilahi",
-        "stream": "http://117.20.40.212:8010/;stream.nsv&type=mp3",
+        "stream": "http://suaraquran.com:8030/;stream.nsv&type=mp3",
         "homepage": "http://suaraquran.com/", 
         "color": "#58bb10"
     }, {
         "id": "syiartauhid",
         "title": "Radio Syiar Tauhid",
         "tagline": "Lebih Nyaman Dengan Lantunan Al-Qur'am, Lebih Indah Dengan Sunnah Nabawiyah",
-        "stream": "http://syiartauhid.info:8008/;stream.nsv&type=mp3",
+        "stream": "http://syiartauhid.info:8046/;stream.nsv&type=mp3",
         "homepage": "http://syiartauhid.info/",
         "color": "#cb5801"
     }]
